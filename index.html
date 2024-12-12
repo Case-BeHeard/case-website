@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/case logo 1-02.svg" type="image/x-icon">
+  <title>Case:Be Heard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="section" id="home">
+    <nav class="nav1">
+      <div class="logo">
+        <img src="assets/case logo 1-02.svg" alt="The Case Logo" >
+      </div>
+      <div class="links">
+      <ul class= sidebar>
+        <li onclick=hideSidebar() id="hideSidebar"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+        <li onclick=hideSidebar()><a href="#">Home</a></li>
+        <li><a href="https://gdsc.community.dev/kaduna-state-university/" target="_blank" rel="noopener">About us</a></li>
+        <li onclick=hideSidebar()><a href="#features">Features</a></li>
+        <li><a href="#"><button class="jsbutton" onclick=openGithub()>Get Started</button></a></li>
+      </ul>
+      
+      <ul class="nav-list">
+        <li><a href="#" class="hideOnMobile">Home</a></li>
+        <li><a href="https://gdsc.community.dev/kaduna-state-university/" target="_blank" rel="noopener" class="hideOnMobile">About us</a></li>
+        <li><a href="#features" class="hideOnMobile">Features</a></li>
+      </ul>
+    </div>
+    <div class="hamburger" onclick=showSidebar()>
+      <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </div>
+    <div class="btn-get-started" id="btn-get-started">
+      <a href="#"><button class="jsbutton" onclick=openGithub()>Get Started</button></a>
+    </div>
+    </nav>
+    <div class="header-image-container">
+      <h1 class="upload-text">Upload Your Cases and Be Heard.</h1>
+      <div class="main-iphone-image">
+        <img
+          src="assets/free-silver-iphone-x-mockup-for-screens-presentation-2018-1.png"
+          alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section2" id="features">
+    <div class="section2-conatiner">
+      <div class="features-header">
+        <h2 class="features-text">Some Features of the <span >Case</span> App.</h2>
+      </div>
+     
+      <div class="features-conatiner">
+          <div class="top-features-container">
+            <div class="features-text">
+              <h3>User Friendly Interface</h3>
+              <p>CASE enables community members to create accounts effortlessly and upload details like videos and pictures about their cases in their respective communites. A user has the option to use AI to improve their  Case wording.</p>
+            </div>
+            <div class="features-image">
+              <img src="assets/left.png" alt="">
+            </div>
+          </div>
+          <div class="bottom-features-container">
+            <div class="features-text">
+              <h3>Community</h3>
+              <p>By using GPS to determine a user's location, we can identify their primary community, which is typically their state. Within each state, there are smaller communities comprising various towns and places. When a user wants to upload their content, they can do so within one of the communities of their state. They also have the option to create a new community if it doesn't already exist. All communities and sub-communities are organized based on geographical location.</p>
+            </div>
+            <div class="features-image">
+              <img src="assets/right.png" alt="">
+            </div>
+          </div>
+          <h2>And much more on the Platform..</h2>
+      </div>
+      
+    </div>
+  </section>
+  <footer>
+    <p>&copy; Google Developers Student Clubs KASU 2024</p>
+  </footer>
+</body>
+</html>
